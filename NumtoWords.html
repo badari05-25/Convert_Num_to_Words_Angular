@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <form id="form">
+            <div class="col-sm-12 text-center mt-5">
+                <input type="number" name="num" #num placeholder="Enter only number" required>
+                <button type="button" class="btn btn-danger ms-2" (click)="getvalue(num.value)">Check</button>
+            </div>
+            <h3>Converted : <span id="converted">{{displayval}}</span></h3>
+        </form>
+    </div>
+</div> 
+
+<!-- type2-->
+
+<!-- <h1>Angular Convert Number to word example</h1><br>
+<p><input type="number" id="mynumber" name="mynumber" #num></p>
+
+<button type="button" (click)="convertToWord(num.value)">Convert to String</button>
+<h1> {{outputWords}}</h1> -->
